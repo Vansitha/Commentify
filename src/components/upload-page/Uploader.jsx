@@ -5,7 +5,7 @@ export default function Uploader() {
         <p className=''>Drag your directory here or click to upload</p>
         <input type='file' hidden />
       </label>
-      <button className='bg-stone-900 border-stone-900 border rounded-xl inline-flex items-center justify-center py-3 px-14 text-center text-sm font-medium text-white hover:bg-stone-800 disabled:bg-gray-3 disabled:border-gray-3 disabled:text-dark-5'>
+      <button className='bg-zinc-900 border-zinc-900 border rounded-xl inline-flex items-center justify-center py-3 px-14 text-center text-sm font-medium text-white hover:bg-zinc-800 disabled:bg-gray-3 disabled:border-gray-3 disabled:text-dark-5'>
         Commentify
       </button>
     </div>

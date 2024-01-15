@@ -8,7 +8,9 @@ export default function Main() {
         <img src={Gear} alt='Gear' height={140} width={140} />
       </div>
       <div className='mt-10 text-center font-title'>
-        <h1 className='text-5xl font-extrabold'>Documenting Made Easy</h1>
+        <h1 className='text-5xl text-zinc-900 font-extrabold'>
+          Documenting Made Easy
+        </h1>
         <h3 className='mt-4 text-xl font-medium'>
           Upload your project directory and watch the&nbsp;
           <span className='font-extrabold text-sky-600'>
