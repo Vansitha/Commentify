@@ -10,15 +10,16 @@ export default function UsagePage() {
           <h1 className='text-4xl font-medium mt-10 mb-5'>Usage</h1>
           <div className='text-sm w-3/4'>
             <p>
-              Hi, why did I build this tool, you may ask? Well, let me share the
-              backstory. As a student myself, I used to procrastinate commenting
-              my code until the very last moment, often leading to me not doing
-              it at all and hastily submitting the assignment. If you&apos;re a
-              comp sci student, you&apos;ve probably been there.
+              Hi, you might be wondering the purpose behind this tool. Well, let
+              me share the backstory. As a student myself, I used to
+              procrastinate commenting my code until the very last moment, often
+              leading to me not doing it at all and hastily submitting the
+              assignment. If you&apos;re a comp sci student, you&apos;ve
+              probably been there.
             </p>
             <p className='mt-3'>
               So, I created this tool with the purpose of being a last-minute
-              lifesaver. It allows you to comment on your entire coding project
+              lifesaver. It allows you to comment your entire coding project
               with just one click before submission. Let&apos;s face it, markers
               don&apos;t have the time to go through your code line by line.
               Having comments can make all the difference, helping you score
