@@ -2,10 +2,10 @@ import { motion } from "framer-motion";
 
 export default function Animation() {
   return (
-    <div>
+    <div className='flex flex-col items-center'>
       <svg
-        width={195}
-        height={195}
+        width={150}
+        height={150}
         viewBox='0 0 195 195'
         fill='none'
         xmlns='http://www.w3.org/2000/svg'

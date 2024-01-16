@@ -57,9 +57,9 @@ export default function UsagePage() {
             for proper coding practices or manual code review. Users are
             encouraged to exercise caution and not solely rely on automated
             commenting. The tool&apos;s effectiveness may vary, and it is
-            essential to adhere to individual academic requirements. The creator
-            assumes no responsibility for its use or misuse in any academic or
-            professional setting.
+            essential to adhere to the institutions&apos;s academic
+            requirements. The creator assumes no responsibility for its use or
+            misuse in any academic or professional setting.
           </p>
         </div>
       </div>
