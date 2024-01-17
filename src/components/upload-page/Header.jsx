@@ -28,7 +28,7 @@ export default function Header() {
   }
 
   return (
-    <div className='md:flex md:justify-between pt-5 md:px-7'>
+    <div className='md:flex md:justify-between pt-5'>
       <div className='flex justify-between'>
         <Logo />
         {showMenu ? (

@@ -22,7 +22,7 @@ export default function App() {
   );
 
   return (
-    <div className='text-body'>
+    <div className='font-body text-stone-900'>
       <RouterProvider router={router} />
     </div>
   );

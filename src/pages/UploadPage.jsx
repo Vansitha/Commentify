@@ -6,7 +6,7 @@ import Footer from "../components/Footer";
 export default function UploadPage() {
   return (
     <div className='g h-screen flex flex-col justify-between'>
-      <div className='container mx-auto font-body px-3 md:px-7'>
+      <div className='container mx-auto font-body px-3 lg:px-0'>
         <Header />
         <div className='mt-10 mb-28'>
           <Main />
