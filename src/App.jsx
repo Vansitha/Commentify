@@ -5,17 +5,17 @@ import {
   Route,
   RouterProvider,
 } from "react-router-dom";
-import DownloadPage from "./pages/DownloadPage";
 import UploadPage from "./pages/UploadPage";
 import UsagePage from "./pages/UsagePage";
 import ErrorPage from "./pages/ErrorPage";
+import ProjectPage from "./pages/ProjectPage";
 
 export default function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
       <Route path='/' element={<Outlet />} errorElement={<ErrorPage />}>
         <Route index path='/' element={<UploadPage />} />
-        <Route path='/project' element={<DownloadPage />} />
+        <Route path='/project' element={<ProjectPage />} />
         <Route path='/usage' element={<UsagePage />} />
       </Route>
     )
