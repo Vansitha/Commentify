@@ -1,22 +1,22 @@
-import Gear from "../../assets/gear2.svg";
 import { SparklesIcon } from "@heroicons/react/24/solid";
+import GearAnimation from "../GearAnimation";
 
 export default function Main() {
   return (
     <div>
       <div className='flex justify-center'>
-        <img src={Gear} alt='Gear' height={140} width={140} />
+        <GearAnimation animate='once' />
       </div>
       <div className='mt-10 text-center font-title'>
         <h1 className='text-5xl text-zinc-900 font-extrabold'>
-          Documenting Made Easy
+          Documenting Code Made Easy
         </h1>
-        <h3 className='mt-4 text-xl font-medium'>
+        <h3 className='mt-4 text-xl font-medium '>
           Upload your project directory and watch the&nbsp;
-          <span className='font-extrabold text-sky-600'>
+          <span className='font-extrabold  bg-gradient-to-r from-cyan-700 via-sky-500 to-emerald-500 bg-clip-text text-transparent'>
             AI
             <span className='relative'>
-              <SparklesIcon className='absolute bottom-4 -right-4 inline h-5 w-5 text-sky-600 ' />
+              <SparklesIcon className='absolute md:bottom-4 md:-right-4 inline h-3 w-3 md:h-5 md:w-5 text-cyan-600' />
             </span>
           </span>
           &nbsp;&nbsp;work its magic.

@@ -50,7 +50,7 @@ export default function Header() {
       >
         {determineLabel()}
         <Link
-          className='my-5 md:my-0 flex max-w-fit items-center justify-center space-x-2 rounded-full border border-gray-300 bg-white px-3 py-2 text-xs text-gray-600 transition-colors hover:bg-gray-100'
+          className='my-5 md:my-0 flex max-w-fit items-center justify-center space-x-2 rounded-full border border-gray-300 bg-white px-3 py-2 text-sm text-gray-600 transition-colors hover:bg-gray-100'
           to='https://github.com/Vansitha/code-documenter'
           target='_blank'
           rel='noopener noreferrer'
