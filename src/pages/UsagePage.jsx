@@ -48,7 +48,7 @@ export default function UsagePage() {
               <li>30 source files max per project.</li>
             </ul>
           </div>
-          <p className='text-xs mt-10'>
+          <p className='text-sm mt-6'>
             <strong>Disclaimer:</strong> This tool is provided for educational
             and entertainment purposes only. While it aims to assist you in
             commenting your code efficiently, I am not responsible for the

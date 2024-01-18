@@ -9,6 +9,7 @@ import UploadPage from "./pages/UploadPage";
 import UsagePage from "./pages/UsagePage";
 import ErrorPage from "./pages/ErrorPage";
 import ProjectPage from "./pages/ProjectPage";
+import { Toaster } from "react-hot-toast";
 
 export default function App() {
   const router = createBrowserRouter(
@@ -23,6 +24,7 @@ export default function App() {
 
   return (
     <div className='font-body text-stone-900'>
+      <Toaster />
       <RouterProvider router={router} />
     </div>
   );
